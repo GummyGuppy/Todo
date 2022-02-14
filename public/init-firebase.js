@@ -12,5 +12,9 @@ if (!firebase.apps.length) {
   firebase.app(); // if already initialized, use that one
 }
 
+//-- FIRESTORE COLLETION NAME --
+//Alter this value based on the firestore collection to be used
+export const COLLECTION = 'Todo'
+
 const db = firebase.firestore()
 export {db}
