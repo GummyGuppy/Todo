@@ -1,6 +1,9 @@
 {
   "name": "todo",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.17.4"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -22,5 +25,17 @@
     "@iconify/react": "^3.0.0-beta.1",
     "eslint": "7.32.0",
     "eslint-config-next": "11.0.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GummyGuppy/todo.git"
+  },
+  "author": "Earl Born",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GummyGuppy/todo/issues"
+  },
+  "homepage": "https://github.com/GummyGuppy/todo#readme"
 }

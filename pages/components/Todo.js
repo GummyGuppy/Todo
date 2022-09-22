@@ -21,7 +21,6 @@ export default function Todo() {
     const [todo, setTodo] =  useState()  
     const [inputValue, setInputValue] = useState('')
     const [isEditable, setIsEditable] = useBoolean(false)
-
     const { isOpen, onToggle } = useDisclosure()
     const [alertFlag, setAlertFlag] = useState(false)
 
@@ -66,6 +65,7 @@ export default function Todo() {
         ~~~    CREATE FUNCTIONS    ~~
     */
     //This function CREATES a task within given collection based off of the arguments passed
+    //Create Firestore task within collection
     function setData(collectionName, value) {
 
         db.collection(collectionName).doc().set({
